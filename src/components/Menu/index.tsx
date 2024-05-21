@@ -22,6 +22,11 @@ export function Menu() {
         <li>
           <Link to="/redirect">Redirect</Link>
         </li>
+        <li>
+          <Link to="/posts/10?page=100&comment=segundo">
+            Post 10 page 100 comment
+          </Link>
+        </li>
       </ul>
     </nav>
   );

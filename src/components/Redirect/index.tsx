@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import "./style.css";
 import { useNavigate } from "react-router-dom";
 
-export default function Redirect() {
+export function Redirect() {
   const [time, setTime] = useState(3);
   const timeout = useRef(0);
   const navigate = useNavigate();

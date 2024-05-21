@@ -1,6 +1,6 @@
 import { Outlet, useParams, useSearchParams } from "react-router-dom";
 
-export default function Post() {
+export function Post() {
   const params = useParams();
   const { id } = params;
   const [qs] = useSearchParams();
